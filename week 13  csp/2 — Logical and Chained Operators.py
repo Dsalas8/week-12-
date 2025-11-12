@@ -53,4 +53,8 @@ print(not(0 == d > 10 ))
 # Use chained comparison to check if 3 < 4 < 5.
 print(3 < 4 < 5)
 # Challenge: Create a password rule using logical operators:
-
+password = input ("Enter your password")
+if len(password) >= 10
+    print("Correct Password")
+else:
+    print("Incorrect password")
