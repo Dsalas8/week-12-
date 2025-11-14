@@ -9,6 +9,30 @@
 #lists are mutable, meaning you can change their content 
 #lists are created using square brackets 
 # Examples:
+#Mr.Evins notes 
+#instead of c reating seperate variabhles we can store them into a list.
+#This makes our job easier, 
+#when we need to manage multiple items. 
+#performance task answer
+my_list = [1,2,3,4,5]
+print(my_list) # [1,2,3,4,5]
+print(type(my_list)) # <class 'list'>
+#Access elements:
+print(my_list[0]) #1
+print(my_list[1:4]) # [2,3,4]
+print(my_list[0:])
+
+# Modifiying lists 
+#adding an item to the end of the list 
+my_list.append(6)
+print(my_list) #[1,2,3,4,5,6]
+my_list.extend([10,11,12,13,14])
+print(my_list)
+#add 500 more numbers to the list 
+my_list.extend(list(range(15,515)))
+print(my_list)
+my_list.extend(list(range(515,1115)))
+print(my_list)
 
 my_list = ['apple', 'banana', 'cherry']
 print(my_list[0])         # apple
