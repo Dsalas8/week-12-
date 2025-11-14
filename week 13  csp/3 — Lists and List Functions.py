@@ -3,7 +3,11 @@
 
 # Topics Covered:
 # Creating lists, indexing, slicing, appending, popping, sorting, reversing.
-
+#creating lists are part of the collections family in python.
+#collections are used to store multiple items in one variable 
+#lists are ordered collections of items 
+#lists are mutable, meaning you can change their content 
+#lists are created using square brackets 
 # Examples:
 
 my_list = ['apple', 'banana', 'cherry']
